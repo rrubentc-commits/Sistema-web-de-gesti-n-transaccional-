@@ -72,6 +72,11 @@ $carpetaActual = basename(dirname($_SERVER['PHP_SELF']));
                 <i class="bi bi-database-fill-gear"></i> Copias de Seguridad
             </a>
         </li>
+        <li>
+            <a href="<?= BASE_URL ?>modules/rfid/index.php" class="<?= $carpetaActual == 'rfid' ? 'active' : '' ?>">
+                <i class="bi bi-upc-scan"></i> Control RFID de Cisternas
+            </a>
+        </li>
         <?php endif; ?>
     </ul>
 
